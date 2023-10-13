@@ -13,7 +13,9 @@ public class CharacterPatter {
         {
             char AlphaCharacter='A';
             AlphaCharacter=(char)((int)AlphaCharacter+i-1); //in the second iteration
-            //Alpha Character value will become 
+            //Alpha Character value will become  B
+            //but because of the line above char "AlphaCharacter='A';" afain the value A now
+            //but i value has increased to 2 now, "so A+2-1= i.e. B"
 
 
             for(int j=1;j<=i;j++)

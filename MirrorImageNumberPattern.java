@@ -15,14 +15,14 @@ public class MirrorImageNumberPattern {
         Scanner sc=new Scanner(System.in);
         System.out.println("please enter number of rows");
         int rowCount=sc.nextInt();
-        for(int i=1;i<=rowCount;i++) 
+        for(int i=1;i<=rowCount;i++) // the outer layer is reqiured to go to the next row starting from 1 to row number provided
         {
-            for(int space=rowCount;space>i;space--)
+            for(int space=rowCount;space>i;space--) // space will be added for rowNumber than rowNumber-1 upto the value i=2
             {
                 System.out.print(" ");
             }
             int number=1;
-            for(int j=0;j<i;j++)
+            for(int j=0;j<i;j++) //after the space been added this loop will actually help to print the numbers
             {
                 System.out.print(number);
                 number=number+1;

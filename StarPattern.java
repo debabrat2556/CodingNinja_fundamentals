@@ -18,7 +18,7 @@ public class StarPattern {
         Scanner sc=new Scanner(System.in);
         System.out.println("please enter row number");
         int rowCount=sc.nextInt();
-        for(int i=0;i<rowCount;i++)
+        for(int i=0;i<rowCount;i++) 
         {
             for(int space=rowCount-1;space>i;space--)
             {

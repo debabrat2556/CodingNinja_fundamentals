@@ -18,17 +18,17 @@ public class StarPattern {
         Scanner sc=new Scanner(System.in);
         System.out.println("please enter row number");
         int rowCount=sc.nextInt();
-        for(int i=0;i<rowCount;i++) 
+        for(int i=0;i<rowCount;i++) // outer layer for row increment
         {
-            for(int space=rowCount-1;space>i;space--)
+            for(int space=rowCount-1;space>i;space--) //loop to add the space
             {
                 System.out.print(" ");
             }
-            for(int starRepetation=0;starRepetation<=i;starRepetation++)
+            for(int starRepetation=0;starRepetation<=i;starRepetation++) //loop to print the left section (see above)
             {
                 System.out.print("*");
             }
-            for(int secondStar=0;secondStar<i;secondStar++)
+            for(int secondStar=0;secondStar<i;secondStar++) //loop for the right hand side triangle
             {
                 System.out.print("*");
             }

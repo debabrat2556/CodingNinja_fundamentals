@@ -26,13 +26,27 @@ public class DiamondPattern {
         int firstHalf=rowCount/2+1;
         int secondHalf=firstHalf-1;
 
-        for(int i=0;i<firstHalf;i++)
+        for(int i=0;i<firstHalf;i++) //outer loop to run the rows
         {
-            for(int space=firstHalf-1;space>i;space--)
+            for(int space=firstHalf-1;space>i;space--) //firsthalf value is say 3 so space=2 and i is 0
+                                                       //so space printed will be 2 
             {
                 System.out.print(" ");
             }            
-            for(int printStar=0;printStar<=i;printStar++)
+            for(int printStar=0;printStar<=i;printStar++) // we need exactly the same number of star as
+                                                            //as the row number
+            {
+                System.out.print("*");
+            }
+            System.out.print(" ");                      // we have added this line just to showcase 
+                                                            //how the program works
+                                                            
+            for(int secondStar=0;secondStar<i;secondStar++) //i is at 0 for the first instance
+                                                            // and we are also initializing secondStar at 0
+                                                            // so for first row no output
+                                                            //but for second iteration seconStar=0
+                                                                                // and i=1
+                                                                                //secondStar<i so condition satisfies
             {
                 System.out.print("*");
             }

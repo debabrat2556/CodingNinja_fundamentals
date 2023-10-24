@@ -16,13 +16,15 @@ public class ParallelogramPattern {
         Scanner sc=new Scanner(System.in);
         System.out.println("please enter row number");
         int rowCount=sc.nextInt();
-        for(int i=0;i<rowCount;i++)
+        for(int i=0;i<rowCount;i++) // to process the rows 0 to rowCount-1
         {
-            for(int space=1;space<=i;space++)
+            for(int space=1;space<=i;space++) //for the first iteration it does not satisfy as i value is 0
+                                                //for the second iteration when i becomes 1
+                                                //and space is also 1 it will print space
             {
                 System.out.print(" ");
             }
-            for(int j=0;j<rowCount;j++)
+            for(int j=0;j<rowCount;j++)     //for printing the stars
             {
                 System.out.print("*");
             }

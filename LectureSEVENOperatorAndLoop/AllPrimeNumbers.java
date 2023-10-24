@@ -20,20 +20,24 @@ public class AllPrimeNumbers {
         Scanner sc=new Scanner(System.in);
         System.out.println("please enter the number");
         int number=sc.nextInt();
-        for(int i=2;i<=number;i++)
+        for(int i=2;i<=number;i++)   //We have to find all prime numbers within the range from 2 to given number  
         {
             int count=0;
-            for(int j=2;j<=i;j++)
+            for(int j=2;j<=i;j++)       //the divisor goes from 2 to upto max i value 
+                                        //so if i value becomes equal to number given the j loop will run till that value
             {
                 if(i%j==0)
                 {
-                    count++;
-                }
-                if(count==1)
-                {
-                    System.out.println(i);
+                    count++;        //if i is completely divisible by two or more value of j 
+                                    //the count value becomes more than 1, and we dont want that for prime
                 }
             }
+            if(count==1)            //so because of the above reason if count value 
+                                    //does not exceed 1 that means that the number is only divisible one time
+                                    //and that too by itself, so it's a prime number
+                {
+                    System.out.println(i); //printing the prime numbers
+                }
         }
     }
 }

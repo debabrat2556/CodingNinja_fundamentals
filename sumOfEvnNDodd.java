@@ -5,7 +5,7 @@
 
 // Digits mean numbers, not places! That is, if the given integer is "132456", even digits are 2, 4, and 6, and odd digits are 1, 3, and 5.
 
-package CodingNinja_fundamentals;
+
 
 import java.util.Scanner;
 

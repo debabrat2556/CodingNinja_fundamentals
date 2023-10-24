@@ -7,7 +7,7 @@
 // 333
 // 4444
 
-package CodingNinja_fundamentals;
+
 
 import java.util.Scanner;
 

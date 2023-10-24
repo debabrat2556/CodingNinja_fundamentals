@@ -1,4 +1,4 @@
-package CodingNinja_fundamentals;
+
 
 import java.util.Scanner;
 

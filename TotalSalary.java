@@ -12,7 +12,7 @@
 // allow = 1300 if grade = ‘C' or any other character
 // pf    = 11% of basic.
  
-package CodingNinja_fundamentals;
+
 
 import java.util.Scanner;
 

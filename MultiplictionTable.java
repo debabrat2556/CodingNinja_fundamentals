@@ -2,7 +2,7 @@
 
 // Write a program to print multiplication table of n
 
-package CodingNinja_fundamentals;
+
 
 import java.util.Scanner;
 

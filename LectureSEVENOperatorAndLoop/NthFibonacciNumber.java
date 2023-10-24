@@ -18,7 +18,7 @@
 // [ 1, 1, 2, 3, 5, 8, 13, 21]
 // So the “6th” element is “8” hence we get the output.
 
-package Lecture 7  Operators & For Loop ;
+package LectureSEVENOperatorAndLoop ;
 
 import java.util.Scanner;
 

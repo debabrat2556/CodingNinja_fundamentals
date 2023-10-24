@@ -16,6 +16,8 @@ public class FindPowerOfANumber {
 
         System.out.println("please enter the for the number");
         int power=sc.nextInt();
+
+        // pow is a function under the math class and the outcome results a doble value, so we are again converting it to int value
         int result=(int)Math.pow(number, power);
         System.out.println(result);
     }

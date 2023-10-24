@@ -1,0 +1,7 @@
+First in your local machine 
+create a folder inside the repository
+create a file to be placed inside the created folder
+git pull origin main
+git add
+git commit 
+git push

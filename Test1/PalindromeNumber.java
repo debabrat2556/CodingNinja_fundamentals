@@ -20,14 +20,15 @@ public class PalindromeNumber {
         int number=sc.nextInt(); //say number is 51415 
         int revNumber=0;
         int numberKept=number;
-        boolean flag;
+        boolean flag;        //this is required as we need to return true or false value
         while(number!=0)
         {
-            int remainder=number%10;
-            revNumber=revNumber*10+remainder;
+            int remainder=number%10;             //to get the last digit
+            revNumber=revNumber*10+remainder;    //revNumber=0+5=5 for first first iteration
+                                                 //for the second iteration revnumber=5*10+1=51  and this goes on
             number=number/10;
         }
-        if(numberKept==revNumber)
+        if(numberKept==revNumber)                //to check palindrome
         {
             flag=true;
         }
@@ -35,6 +36,6 @@ public class PalindromeNumber {
         {
             flag=false;
         }
-        System.out.println(flag);
+        System.out.println(flag);                //printing boolean value
     }
 }

@@ -29,6 +29,6 @@ public class FarheniteToCelsiusTable {
 		int start=sc.nextInt();
 		int end=sc.nextInt();
 		int step=sc.nextInt();
-		printFahrenheitTable(start,end,step);
+		printFahrenheitTable(start,end,step); //we are passing the values to function declared above
     }
 }

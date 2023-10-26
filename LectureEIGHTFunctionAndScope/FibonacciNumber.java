@@ -1,3 +1,5 @@
+//This Program checks if a number belongs to the fibonacci series or not
+
 package LectureEIGHTFunctionAndScope;
 
 import java.util.Scanner;

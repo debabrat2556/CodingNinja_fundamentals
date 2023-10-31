@@ -12,7 +12,7 @@
 // 15
 // 60
 
-package LectureEIGHTFunctionAndScope.Array;
+package Array;
 
 import java.util.Scanner;
 

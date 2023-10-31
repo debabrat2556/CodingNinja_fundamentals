@@ -1,4 +1,4 @@
-package LectureEIGHTFunctionAndScope.Array;
+package Array;
 
 import java.util.Scanner;
 

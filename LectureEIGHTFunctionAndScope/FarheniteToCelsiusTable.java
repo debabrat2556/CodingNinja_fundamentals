@@ -7,7 +7,7 @@
 // Output Format :
 // Fahrenheit to Celsius conversion table. One line for every Fahrenheit and Celsius Fahrenheit value. Fahrenheit value and its corresponding Celsius value should be separate by tab ("\t")
 
-package LectureEIGHTFunctionAndScope;
+
 
 import java.util.Scanner;
 

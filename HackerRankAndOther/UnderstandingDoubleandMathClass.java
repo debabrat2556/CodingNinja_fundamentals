@@ -20,10 +20,10 @@ public class UnderstandingDoubleandMathClass {
         int sum=(int)((Math.round(meal+tip+tax)));
 
         //we can describe the above partlike this
-        (meal+tip+tax)=this will result a double value 
-        however (int)(meal+tip+tax) will result int value and the decimal value will be ignored
-        so to avoid that we have added the Math.round(value) which gives the round off value 
-        for (meal+tip+tax)
+        // (meal+tip+tax)=this will result a double value 
+        // however (int)(meal+tip+tax) will result int value and the decimal value will be ignored
+        // so to avoid that we have added the Math.round(value) which gives the round off value 
+        // for (meal+tip+tax)
         
         System.out.println(sum);
         }
